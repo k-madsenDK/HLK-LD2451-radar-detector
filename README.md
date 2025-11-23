@@ -125,7 +125,7 @@ The HLK-LD2451 is a long-range radar (up to ~100 m). At very short distances:
     Speed may stay at 0 km/h for slow motion.
     OT1 and SNR are still very useful as “presence/motion detected” indicators.
 
-For a Tachyon/Hailo camera system, a practical approach is:
+For a Hailo camera system, a practical approach is:
 
     Treat “at least 1 target + high SNR + OT1 = 1” as object detected.
     Use distanceM only as a rough near/far hint (e.g. < 3 m = very close).
